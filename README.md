@@ -8,5 +8,5 @@ wget -P /etc/portage/repos.conf/ https://raw.githubusercontent.com/DankDumpster/
 ```
 
 ```bash
-sudo emaint sync --repo dankdumpster-overlay
+emaint sync --repo dankdumpster-overlay
 ```
