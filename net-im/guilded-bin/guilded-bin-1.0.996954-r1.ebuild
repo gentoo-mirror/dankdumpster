@@ -22,7 +22,7 @@ RDEPEND="
 	app-accessibility/at-spi2-core
 	app-crypt/libsecret
 	dev-libs/libappindicator
-	sys-libs/libuuid
+	sys-apps/util-linux
 	x11-misc/xdg-utils
 	x11-libs/gtk+:3
 	x11-libs/libnotify
