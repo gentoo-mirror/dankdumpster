@@ -52,7 +52,7 @@ src_prepare() {
 	default
 
 	sed -i \
-		-e "s:/usr/share/${MY_PN}/${MY_BIN}:/opt/${MY_PN}/${MY_BIN}:g" \
+		-e "s:/usr/share/${MY_PN}/${MY_BIN}:/opt/${MY_BIN}/${MY_PN}:g" \
 		usr/share/applications/${MY_PN}.desktop || die
 }
 
@@ -60,10 +60,10 @@ src_install() {
 	newicon usr/share/icons/hicolor/512x512/apps/${MY_PN}.png ${MY_PN}.png
 	domenu usr/share/applications/${MY_PN}.desktop
 
-	insinto /opt/${MY_PN}
+	insinto /opt/${MY_BIN}
 	doins -r opt/${MY_BIN}/.
-	fperms +x /opt/${MY_PN}/${MY_PN}
-	dosym ../../opt/${MY_PN}/${MY_PN} usr/bin/${MY_PN}
+	fperms +x /opt/${MY_BIN}/${MY_PN}
+	dosym ../../opt/${MY_BIN}/${MY_PN} usr/bin/${MY_PN}
 
-	pax-mark -m "${ED}"/opt/${MY_PN}/${MY_PN}
+	pax-mark -m "${ED}"/opt/${MY_BIN}/${MY_PN}
 }
