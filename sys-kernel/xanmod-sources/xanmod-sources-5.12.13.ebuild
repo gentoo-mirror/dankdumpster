@@ -7,6 +7,7 @@ K_WANT_GENPATCHES="base extras"
 K_GENPATCHES_VER="1"
 K_SECURITY_UNSUPPORTED="1"
 K_NOSETEXTRAVERSION="1"
+
 XAN_VER="${PV}-xanmod1"
 
 inherit kernel-2
