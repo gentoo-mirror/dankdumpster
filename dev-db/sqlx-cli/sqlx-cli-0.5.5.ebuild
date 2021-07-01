@@ -5,6 +5,7 @@ EAPI=7
 
 CRATES="
 ahash-0.7.2
+ahash-0.7.3
 aho-corasick-0.7.18
 ansi_term-0.11.0
 anyhow-1.0.40
@@ -148,6 +149,7 @@ oorandom-11.1.3
 opaque-debug-0.3.0
 openssl-0.10.34
 openssl-probe-0.1.4
+openssl-src-111.15.0+1.1.1k
 openssl-sys-0.9.63
 os_str_bytes-2.4.0
 parking-2.0.0
@@ -220,6 +222,10 @@ smallvec-1.6.1
 socket2-0.4.0
 spin-0.5.2
 sqlformat-0.1.6
+sqlx-${PV}
+sqlx-core-${PV}
+sqlx-macros-${PV}
+sqlx-rt-${PV}
 standback-0.2.17
 static_assertions-1.1.0
 stdweb-0.4.20
@@ -241,7 +247,9 @@ terminal_size-0.1.17
 textwrap-0.11.0
 textwrap-0.12.1
 thiserror-1.0.24
+thiserror-1.0.25
 thiserror-impl-1.0.24
+thiserror-impl-1.0.25
 time-0.1.43
 time-0.2.26
 time-macros-0.1.1
@@ -265,6 +273,7 @@ unicode_categories-0.1.1
 url-2.2.2
 value-bag-1.0.0-alpha.7
 vcpkg-0.2.12
+vcpkg-0.2.13
 vec_map-0.8.2
 version_check-0.9.3
 waker-fn-1.1.0
@@ -292,12 +301,34 @@ inherit cargo
 
 DESCRIPTION="Command-line utility for SQLx, the Rust SQL toolkit."
 HOMEPAGE="https://github.com/launchbadge/sqlx"
-SRC_URI="$(cargo_crate_uris ${CRATES})"
+SRC_URI="https://crates.io/api/v1/crates/${PN}/${PV}/download -> ${P}.tar.gz
+	$(cargo_crate_uris ${CRATES})"
 RESTRICT="mirror"
 LICENSE="Apache-2.0 BSD-3-Clause BSL-1.0 ISC MIT MPL-2.0 Zlib"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86 ~arm64"
 IUSE=""
 
 DEPEND=""
 RDEPEND=""
+
+QA_FLAGS_IGNORED="usr/bin/sqlx"
+
+src_compile() {
+	cargo_src_compile --no-default-features --features "postgres mysql"
+}
+
+src_install() {
+	cargo_src_install --no-default-features --features "postgres mysql"
+
+	dodoc README.md
+}
+
+
+pkg_setup() {
+    ewarn
+    ewarn "${PN} does currently *not* support sqlite3"
+    ewarn "If you need sqlite3 support, install it with:"
+    ewarn "\`cargo install sqlx-cli --no-default-features --features sqlite\`"
+    ewarn
+}
