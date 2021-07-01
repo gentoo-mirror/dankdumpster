@@ -1,6 +1,8 @@
 # gentoo-overlay
 Ebuilds that I couldn't find online
 
+**Note: The ebuilds in this overlay are low quality and may not always function correctly**
+
 ## Install
 **Run these commands as root**
 ```bash
