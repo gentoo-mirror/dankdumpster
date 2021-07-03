@@ -49,6 +49,7 @@ DEPEND="${LUA_DEPS}
 	dev-libs/libuv:0=
 	>=dev-libs/libvterm-0.1.2
 	dev-libs/msgpack:0=
+	dev-libs/tree-sitter:0=
 	!kernel_Darwin? (
 		net-libs/libnsl
 	)
