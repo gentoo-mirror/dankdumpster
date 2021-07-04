@@ -3,7 +3,7 @@
 
 EAPI="7"
 ETYPE="sources"
-K_WANT_GENPATCHES="base extras"
+K_WANT_GENPATCHES="base extras experimental"
 K_GENPATCHES_VER="1"
 K_SECURITY_UNSUPPORTED="1"
 K_NOSETEXTRAVERSION="1"
@@ -17,7 +17,7 @@ detect_arch
 KEYWORDS="~amd64 ~x86"
 RESTRICT="mirror"
 HOMEPAGE="https://github.com/xanmod"
-IUSE=""
+IUSE="experimental"
 
 DESCRIPTION="The XanMod Kernel Live Sources"
 
