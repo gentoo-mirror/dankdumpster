@@ -5,8 +5,7 @@
     <email>dev@mtbk.me</email>
     <name>Matthew Abtin</name>
   </maintainer>
-<upstream>
-    <remote-id type="cpe">cpe:/o:linux:linux_kernel</remote-id>
-    <remote-id type="github">xanmod/linux</remote-id>
-</upstream>
+  <upstream>
+    <remote-id type="github">rust-lang/rust-bindgen</remote-id>
+  </upstream>
 </pkgmetadata>

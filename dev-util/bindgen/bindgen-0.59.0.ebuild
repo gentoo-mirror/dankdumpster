@@ -66,13 +66,9 @@ wyz-0.2.0
 inherit cargo
 
 DESCRIPTION="Automatically generates Rust FFI bindings to C and C++ libraries."
-# Double check the homepage as the cargo_metadata crate
-# does not provide this value so instead repository is used
 HOMEPAGE="https://github.com/rust-lang/rust-bindgen"
 SRC_URI="$(cargo_crate_uris ${CRATES})"
 RESTRICT="mirror test"
-# License set may be more restrictive as OR is not respected
-# use cargo-license for a more accurate license picture
 LICENSE="Apache-2.0 ISC MIT"
 SLOT="0"
 KEYWORDS="~amd64"
