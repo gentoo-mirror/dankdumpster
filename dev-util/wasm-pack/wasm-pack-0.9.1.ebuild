@@ -239,6 +239,7 @@ version_check-0.9.1
 walkdir-2.3.1
 want-0.2.0
 wasi-0.9.0+wasi-snapshot-preview1
+wasm-pack-0.9.1
 which-2.0.1
 winapi-0.2.8
 winapi-0.3.8
@@ -257,10 +258,9 @@ inherit cargo
 
 DESCRIPTION="Your favorite rust -> wasm workflow tool!"
 HOMEPAGE="https://github.com/ashleygwilliams/wasm-pack.git"
-SRC_URI="https://crates.io/api/v1/crates/${PN}/${PV}/download -> ${P}.tar.gz
-	$(cargo_crate_uris ${CRATES})"
+SRC_URI="$(cargo_crate_uris ${CRATES})"
 RESTRICT="mirror"
-LICENSE="Apache-2.0 BSD-2-Clause BSD-3-Clause BSL-1.0 CC0-1.0 ISC MIT Zlib"
+LICENSE="Apache-2.0 ISC MIT"
 SLOT="0"
 KEYWORDS="~amd64"
 IUSE=""
