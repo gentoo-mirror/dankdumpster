@@ -28,7 +28,7 @@ SRC_URI="${KERNEL_URI} ${GENPATCHES_URI} ${ARCH_URI}
 	!cacule? ( ${XAN_URI} )
 "
 
-UNIPATCH_LIST="${DISTDIR}/patch-${XAN_VER}-cacule.xz"
+UNIPATCH_LIST="${DISTDIR}/patch-${XAN_VER}.xz"
 UNIPATCH_STRICTORDER="yes"
 
 K_EXTRAEINFO="For more info on xanmod-sources, and for how to report problems, see: \
