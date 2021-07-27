@@ -5,8 +5,11 @@
     <email>dev@mtbk.me</email>
     <name>Matthew Abtin</name>
   </maintainer>
-<upstream>
+  <use>
+    <flag name='cacule'>Enable Cacule cpu scheduler</flag>
+  </use>
+  <upstream>
     <remote-id type="cpe">cpe:/o:linux:linux_kernel</remote-id>
     <remote-id type="github">xanmod/linux</remote-id>
-</upstream>
+  </upstream>
 </pkgmetadata>
