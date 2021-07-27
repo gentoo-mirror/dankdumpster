@@ -100,7 +100,7 @@ PDEPEND="
 "
 
 PATCHES=(
-	"${FILESDIR}/${P}-meta-key.patch"
+	"${FILESDIR}/${PN}-5.22.3-meta-key.patch"
 )
 
 src_prepare() {
