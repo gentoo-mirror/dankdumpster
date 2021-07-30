@@ -1,7 +1,9 @@
 # Copyright 1999-2021 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=8
+EAPI=7
+
+inherit desktop linux-info unpacker xdg
 
 DESCRIPTION="a Native alternative Linux Launcher for Epic Games"
 HOMEPAGE="https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher"
@@ -44,9 +46,13 @@ src_prepare() {
 }
 
 src_install() {
+	newicon "${FILESDIR}/icon.png" "${PN}.png"
+	domenu "${FILESDIR}/${PN}.desktop"
+
 	insinto /opt
 	doins -r .
 	mv ../image/opt/${P} ../image/opt/${PN}
 	fperms +x /opt/${PN}/${PN}
+	fperms +x /opt/${PN}/resources/app.asar.unpacked/build/bin/linux/legendary
 	dosym ../../opt/${PN}/${PN} usr/bin/${PN}
 }

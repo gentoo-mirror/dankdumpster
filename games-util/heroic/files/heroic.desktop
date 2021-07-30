@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Heroic
+Comment=A Native GUI Epic Games Launcher
+Categories=Game;
+Keywords=gaming;wine;emulator;
+Exec=/usr/bin/heroic %U
+Icon=heroic
+Terminal=false
+Type=Application
