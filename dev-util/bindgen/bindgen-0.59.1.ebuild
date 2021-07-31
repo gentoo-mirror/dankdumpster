@@ -4,10 +4,10 @@
 EAPI=7
 
 CRATES="
+${P}
 aho-corasick-0.7.15
 ansi_term-0.11.0
 atty-0.2.14
-bindgen-0.59.0
 bitflags-1.2.1
 bitvec-0.19.5
 cexpr-0.5.0
