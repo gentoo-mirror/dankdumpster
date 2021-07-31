@@ -1,9 +1,10 @@
 [Desktop Entry]
-Name=Heroic
-Comment=A Native GUI Epic Games Launcher
-Categories=Game;
-Keywords=gaming;wine;emulator;
-Exec=/usr/bin/heroic %U
-Icon=heroic
+Name=Heroic Games Launcher
+Exec=/opt/Heroic/heroic %U
 Terminal=false
 Type=Application
+Icon=heroic
+StartupWMClass=Heroic
+Comment=An Open Source alternative to the Epic Games launcher
+MimeType=x-scheme-handler/heroic;
+Categories=Game;
