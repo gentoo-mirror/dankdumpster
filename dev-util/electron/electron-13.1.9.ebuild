@@ -13,7 +13,7 @@ inherit check-reqs chromium-2 flag-o-matic multilib ninja-utils pax-utils portab
 
 CHROMIUM_VERSION="91.0.4472.164"
 CHROMIUM_P="chromium-${CHROMIUM_VERSION}"
-NODE_VERSION="14.17.5"
+NODE_VERSION="14.16.0"
 NODE_P="node-v${NODE_VERSION}"
 
 DESCRIPTION="Cross platform application development framework based on web technologies"
