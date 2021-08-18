@@ -4,7 +4,7 @@
 EAPI=7
 
 UNGCH_PN="${PN/-bin/}"
-UNGCH_PV="${PV}-1"
+UNGCH_PV="${PV}-1.1"
 
 CHROMIUM_LANGS="
 	am ar bg bn ca cs da de el en-GB en-US es es-419 et fa fi fil fr gu he hi
@@ -16,7 +16,7 @@ inherit chromium-2 desktop xdg
 
 DESCRIPTION="Google Chromium, sans integration with Google (binary package)"
 HOMEPAGE="https://ungoogled-software.github.io/"
-SRC_URI="https://github.com/mealwhiles/ungoogled-chromium-binaries/releases/download/${UNGCH_PV}/ungoogled-chromium.tar.xz -> ${P}.tar.xz
+SRC_URI="https://github.com/mdedonno1337/ungoogled-chromium-binaries/releases/download/${UNGCH_PV}/ungoogled-chromium_${UNGCH_PV}_linux.tar.xz -> ${P}.tar.xz
 "
 
 RESTRICT="mirror"
