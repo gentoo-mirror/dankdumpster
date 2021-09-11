@@ -28,6 +28,5 @@ RDEPEND="${DEPEND}"
 BDEPEND=""
 
 src_install() {
-	elog $EPREFIX
 	emake PREFIX="${D}${EPREFIX}/usr" install
 }
