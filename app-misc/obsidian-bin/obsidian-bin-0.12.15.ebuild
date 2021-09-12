@@ -24,7 +24,6 @@ RDEPEND="
 	gui-libs/gtk
 	sys-apps/util-linux
 	x11-libs/libnotify
-	x11-base/xorg-x11
 	x11-libs/libXtst
 	x11-misc/xdg-utils
 "
