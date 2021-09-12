@@ -7,7 +7,7 @@ dev-util/jetbrains-toolbox 1.21.9712: Manage all your JetBrains Projects and Too
 dev-util/vulkan-headers 1.2.190: Vulkan Header files and API registry
 dev-util/vulkan-tools 1.2.190: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 dev-util/wasm-pack 0.9.1: Your favorite rust -> wasm workflow tool!
-games-util/heroic 1.9.2: a Native alternative Linux Launcher for Epic Games
+games-util/heroic 1.9.3: a Native alternative Linux Launcher for Epic Games
 games-util/mangohud 0.6.5 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
 games-util/steamtinkerlaunch 6.15: Wrapper script for Steam custom launch options
 gnome-extra/yad 10.1: A tool for creating graphical dialogs from shell scripts. Fork of zenity.
@@ -15,7 +15,7 @@ kde-misc/latte-dock 9999: Elegant dock, based on KDE Frameworks
 media-libs/vulkan-loader 1.2.190: Vulkan Installable Client Driver (ICD) Loader
 media-video/pipewire 0.3.33: Multimedia processing graphs
 net-im/discord-canary-bin 0.0.129: All-in-one voice and text chat
-net-im/discord-development-bin 0.0.156: All-in-one voice and text chat
+net-im/discord-development-bin 0.0.159: All-in-one voice and text chat
 net-im/discord-ptb-bin 0.0.25: All-in-one voice and text chat
 net-im/guilded-bin 1.0.996954: Drop Discord, get Guilded
 sys-kernel/xanmod-sources 5.14.2: The XanMod Kernel Live Sources
