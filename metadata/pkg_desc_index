@@ -1,0 +1,24 @@
+app-eselect/eselect-electron 0.2: Utility to select the default Electron slot
+dev-db/sqlx-cli 0.5.5: Command-line utility for SQLx, the Rust SQL toolkit.
+dev-lang/deno 1.13.0: A secure runtime for JavaScript and TypeScript
+dev-util/bindgen 0.59.1: Automatically generates Rust FFI bindings to C and C++ libraries.
+dev-util/electron 13.1.9: Cross platform application development framework based on web technologies
+dev-util/jetbrains-toolbox 1.21.9712: Manage all your JetBrains Projects and Tools
+dev-util/vulkan-headers 1.2.190: Vulkan Header files and API registry
+dev-util/vulkan-tools 1.2.190: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
+dev-util/wasm-pack 0.9.1: Your favorite rust -> wasm workflow tool!
+games-util/heroic 1.9.2: a Native alternative Linux Launcher for Epic Games
+games-util/mangohud 0.6.5 9999: A Vulkan and OpenGL overlay for monitoring FPS, temperatures, CPU/GPU load and more
+games-util/steamtinkerlaunch 6.15: Wrapper script for Steam custom launch options
+gnome-extra/yad 10.1: A tool for creating graphical dialogs from shell scripts. Fork of zenity.
+kde-misc/latte-dock 9999: Elegant dock, based on KDE Frameworks
+media-libs/vulkan-loader 1.2.190: Vulkan Installable Client Driver (ICD) Loader
+media-video/pipewire 0.3.33: Multimedia processing graphs
+net-im/discord-canary-bin 0.0.129: All-in-one voice and text chat
+net-im/discord-development-bin 0.0.156: All-in-one voice and text chat
+net-im/discord-ptb-bin 0.0.25: All-in-one voice and text chat
+net-im/guilded-bin 1.0.996954: Drop Discord, get Guilded
+sys-kernel/xanmod-sources 5.14.2: The XanMod Kernel Live Sources
+virtual/linux-sources 3-r6: Virtual for Linux kernel sources
+www-client/ungoogled-chromium-bin 91.0.4472.114: Google Chromium, sans integration with Google (binary package)
+x11-apps/ocs-url 3.1.0: A program enabling web-installation of items via OpenCollaborationServices
