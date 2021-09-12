@@ -1,4 +1,5 @@
 app-eselect/eselect-electron 0.2: Utility to select the default Electron slot
+app-misc/obsidian-bin 0.12.15: A second brain, for you, forever.
 dev-db/sqlx-cli 0.5.5: Command-line utility for SQLx, the Rust SQL toolkit.
 dev-lang/deno 1.13.0: A secure runtime for JavaScript and TypeScript
 dev-util/bindgen 0.59.1: Automatically generates Rust FFI bindings to C and C++ libraries.
