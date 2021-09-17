@@ -15,7 +15,7 @@ gnome-extra/yad 10.1: A tool for creating graphical dialogs from shell scripts. 
 kde-misc/latte-dock 9999: Elegant dock, based on KDE Frameworks
 media-libs/vulkan-loader 1.2.190: Vulkan Installable Client Driver (ICD) Loader
 media-video/pipewire 0.3.33: Multimedia processing graphs
-net-im/discord-canary-bin 0.0.129: All-in-one voice and text chat
+net-im/discord-canary-bin 0.0.130: All-in-one voice and text chat
 net-im/discord-development-bin 0.0.159: All-in-one voice and text chat
 net-im/discord-ptb-bin 0.0.25: All-in-one voice and text chat
 net-im/guilded-bin 1.0.996954: Drop Discord, get Guilded
