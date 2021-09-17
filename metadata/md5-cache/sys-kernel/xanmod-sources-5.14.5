@@ -1,0 +1,15 @@
+BDEPEND=!build? ( sys-apps/sed )
+DEFINED_PHASES=compile install postinst postrm preinst prepare setup test unpack
+DESCRIPTION=The XanMod Kernel Live Sources
+EAPI=7
+HOMEPAGE=https://github.com/xanmod
+INHERIT=kernel-2
+IUSE=cacule symlink build
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=!build? ( app-arch/cpio dev-lang/perl sys-devel/bc sys-devel/bison sys-devel/flex sys-devel/make >=sys-libs/ncurses-5.2 virtual/libelf virtual/pkgconfig )
+RESTRICT=mirror
+SLOT=5.14.5
+SRC_URI=https://www.kernel.org/pub/linux/kernel/v5.x/linux-5.14.tar.xz https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-5.14-1.base.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-5.14-1.base.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-5.14-1.base.tar.xz https://dev.gentoo.org/~alicef/dist/genpatches/genpatches-5.14-1.extras.tar.xz https://dev.gentoo.org/~mpagano/dist/genpatches/genpatches-5.14-1.extras.tar.xz https://dev.gentoo.org/~whissi/dist/genpatches/genpatches-5.14-1.extras.tar.xz cacule? ( https://github.com/xanmod/linux/releases/download/5.14.5-xanmod1-cacule/patch-5.14.5-xanmod1-cacule.xz ) !cacule? ( https://github.com/xanmod/linux/releases/download/5.14.5-xanmod1/patch-5.14.5-xanmod1.xz )
+_eclasses_=estack	055c42df72f76a4f45ec92b35e83cd56	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	4b66d835ec72e021e359bb81eacfe988	kernel-2	558643172ab02bb7cb88b95070b91f12
+_md5_=b1578b10b6140a682b976e00463cb344
