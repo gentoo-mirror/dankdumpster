@@ -15,11 +15,11 @@ gnome-extra/yad 10.1: A tool for creating graphical dialogs from shell scripts. 
 kde-misc/latte-dock 9999: Elegant dock, based on KDE Frameworks
 media-libs/vulkan-loader 1.2.190: Vulkan Installable Client Driver (ICD) Loader
 media-video/pipewire 0.3.33: Multimedia processing graphs
-net-im/discord-canary-bin 0.0.130: All-in-one voice and text chat
+net-im/discord-canary-bin 0.0.131: All-in-one voice and text chat
 net-im/discord-development-bin 0.0.159: All-in-one voice and text chat
 net-im/discord-ptb-bin 0.0.25: All-in-one voice and text chat
 net-im/guilded-bin 1.0.996954: Drop Discord, get Guilded
-sys-kernel/xanmod-sources 5.14.5: The XanMod Kernel Live Sources
+sys-kernel/xanmod-sources 5.14.7: The XanMod Kernel Live Sources
 virtual/linux-sources 3-r6: Virtual for Linux kernel sources
 www-client/ungoogled-chromium-bin 91.0.4472.114: Google Chromium, sans integration with Google (binary package)
 x11-apps/ocs-url 3.1.0: A program enabling web-installation of items via OpenCollaborationServices
