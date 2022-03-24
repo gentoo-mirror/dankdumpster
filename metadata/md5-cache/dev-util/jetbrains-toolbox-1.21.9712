@@ -9,5 +9,5 @@ LICENSE=all-rights-reserved
 RESTRICT=mirror bindist
 SLOT=0
 SRC_URI=https://download.jetbrains.com/toolbox/jetbrains-toolbox-1.21.9712.tar.gz
-_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	xdg-utils	4f29a8b760a594a212abe9c2ba957c31
+_eclasses_=edos2unix	33e347e171066657f91f8b0c72ec8773	strip-linguas	ac3ee41ee2d31d8c41a77c0838320cc7	wrapper	4251d4c84c25f59094fd557e0063a974	eutils	dab5d8ec471d025b79c9e6906bcf3bff	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
 _md5_=1c988eb5219c0191509c7e7f69998eda
