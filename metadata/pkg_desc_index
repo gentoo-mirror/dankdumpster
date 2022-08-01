@@ -6,7 +6,6 @@ dev-util/bindgen 0.59.1: Automatically generates Rust FFI bindings to C and C++ 
 dev-util/electron 13.1.9: Cross platform application development framework based on web technologies
 dev-util/jetbrains-toolbox 1.21.9712: Manage all your JetBrains Projects and Tools
 dev-util/vulkan-headers 1.2.190: Vulkan Header files and API registry
-dev-util/vulkan-tools 1.2.190: Official Vulkan Tools and Utilities for Windows, Linux, Android, and MacOS
 dev-util/wasm-pack 0.9.1: Your favorite rust -> wasm workflow tool!
 games-util/gamehub 0.16.1.2: GameHub is a unified library for all your games
 games-util/heroic 1.9.3: a Native alternative Linux Launcher for Epic Games
@@ -14,7 +13,6 @@ games-util/mangohud 0.6.5 9999: A Vulkan and OpenGL overlay for monitoring FPS, 
 games-util/steamtinkerlaunch 6.15: Wrapper script for Steam custom launch options
 gnome-extra/yad 10.1: A tool for creating graphical dialogs from shell scripts. Fork of zenity.
 kde-misc/latte-dock 9999: Elegant dock, based on KDE Frameworks
-media-libs/vulkan-loader 1.2.190: Vulkan Installable Client Driver (ICD) Loader
 media-video/pipewire 0.3.33: Multimedia processing graphs
 net-im/discord-canary-bin 0.0.131: All-in-one voice and text chat
 net-im/discord-development-bin 0.0.159: All-in-one voice and text chat
